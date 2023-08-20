@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calbulator</title>
+    <link  href="css_calculator.css" type="text/css" rel="stylesheet">
+    <script src="j_script_calculator.js"></script>
+</head>
+<body>
+    <div id="totalpage">
+        <div id="boss">
+            <div id="outputsc">
+                <input type="text" id="opscreen">
+            </div>
+            <div class="buttons">
+                <button onclick="clearvalo()" class="row_buttons">C</button>
+                <div class="row">
+                    <button onclick="passnum(7)" class="row_buttons">7</button>
+                    <button onclick="passnum(8)" class="row_buttons">8</button>
+                    <button onclick="passnum(9)" class="row_buttons">9</button>
+                    <button onclick="passnum('/')" class="row_buttons">/</button>
+                </div>
+                <div class="row">
+                    <button onclick="passnum(4)" class="row_buttons">4</button>
+                    <button onclick="passnum(5)" class="row_buttons">5</button>
+                    <button onclick="passnum(6)" class="row_buttons">6</button>
+                    <button onclick="passnum('*')" class="row_buttons">x</button>
+                </div>
+                <div class="row">
+                    <button onclick="passnum(1)" class="row_buttons">1</button>
+                    <button onclick="passnum(2)" class="row_buttons">2</button>
+                    <button onclick="passnum(3)" class="row_buttons">3</button>
+                    <button onclick="passnum('-')" class="row_buttons">-</button>
+                </div>
+                    <button onclick="passnum('.')" class="row_buttons">.</button>
+                    <button onclick="passnum(0)" class="row_buttons">0</button>
+                    <button onclick="passnum('+')" class="row_buttons">+</button>
+                    <button onclick="equaltoo()" class="row_buttons">=</button>
+                <div class="row">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

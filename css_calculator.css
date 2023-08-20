@@ -1,0 +1,64 @@
+#boss{
+    width: 398px;
+    height: 470px;
+    background: rgb(42,34,195);
+    background: linear-gradient(0deg, rgba(42,34,195,1) 0%, rgba(45,220,253,1) 79%);
+    border: 3px solid #000000;
+    border-radius: 15px; 
+
+
+}
+#totalpage{
+    padding-top: 70px;
+    padding-left: 440px;
+}#opscreen{
+    width: 85%;
+    margin-left: 26px;
+    height: 55px;
+    color: black;
+    font-family: inherit;
+    font-size: 30px;
+    border: none;
+    margin-top: 36px;
+    pointer-events: none; /* ithe enthinanu enne vecha, opscreen(output/inoput screen) il user type cheyyan padilla instead calculator button click cheyyum avde number verikayane cheyyendathe so i am using this aattribute , user type cheyyunathe oyivaakkan */
+    background: linear-gradient(to bottom, #ffffff, #f1f1f1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+    border-radius: 15px;
+    border: 2px solid;
+    border-color: brown;
+    padding-left: 9px;
+}
+.row_buttons{
+    width: 60px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 30px;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    background: rgb(42,187,246);
+    background: linear-gradient(90deg, rgba(42,187,246,1) 6%, rgba(90,253,29,1) 47%, rgba(22,66,208,1) 89%);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+    border-radius: 15px;
+}
+.row_buttons:hover{
+    transform: translateY(2px);
+
+}
+body {
+    animation: myAnimation 5s infinite;
+    background-color: #000000;
+  }
+
+  @keyframes myAnimation {
+    0% {
+      background-color: #000000;
+    }
+    50% {
+      background-color: #ff0000;
+    }
+    100% {
+      background-color: #000000;
+    }
+  }
